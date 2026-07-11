@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalogue — Nikunj Stores</title>
+<meta name="description" content="Browse the full Nikunj Stores catalogue of deity dresses, idols, mala, and attars.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&family=Lora:wght@400;600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="logo">NIKUNJ STORES</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="category.html">Category</a></li>
+      <li><a href="catalogue.html" aria-current="page">Catalogue</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="catalogue.html" class="nav-icon-btn" aria-label="View cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 6h15l-1.5 9h-12z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M6 6L4.5 3H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="9" cy="19" r="1.3" fill="currentColor"/><circle cx="17" cy="19" r="1.3" fill="currentColor"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-banner">
+  <p class="breadcrumb"><a href="index.html">Home</a> / Catalogue</p>
+  <h1>Our Full Catalogue</h1>
+  <p class="tagline">Every offering for your seva, in one sacred collection</p>
+</header>
+
+<section class="section">
+  <div class="sort-row" style="max-width:1280px; margin:0 auto 28px;">
+    <span>Showing 1–9 of 89 items</span>
+    <label>Sort by
+      <select>
+        <option>Featured</option>
+        <option>Price: Low to High</option>
+        <option>Price: High to Low</option>
+        <option>Newest</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="catalogue-layout">
+    <aside class="filters">
+      <h3>Filter</h3>
+      <div class="filter-group">
+        <strong style="font-family:var(--font-label); font-size:13px; color:var(--maroon);">Category</strong><br><br>
+        <label><input type="checkbox"> Deity Dresses</label>
+        <label><input type="checkbox"> Deities</label>
+        <label><input type="checkbox"> Jap Mala</label>
+        <label><input type="checkbox"> Kanthi Mala</label>
+        <label><input type="checkbox"> Attars</label>
+      </div>
+      <div class="filter-group">
+        <strong style="font-family:var(--font-label); font-size:13px; color:var(--maroon);">Price Range</strong><br><br>
+        <input type="range" min="0" max="5000" value="2500">
+        <p style="font-family:var(--font-label); font-size:12px; color:var(--text-muted);">₹0 — ₹5,000</p>
+      </div>
+      <a href="catalogue.html" class="btn btn-outline btn-block" style="border-color:var(--maroon); color:var(--maroon);">Apply Filters</a>
+    </aside>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://picsum.photos/seed/cat-1/500/420" alt="Placeholder — Radha Krishna Silk Poshak Set">
+        <div class="product-info"><span class="product-name">Radha Krishna Silk Poshak Set</span><span class="product-price">₹1,299</span><a href="product.html" class="btn btn-maroon btn-block">Add to Cart</a></div>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/seed/cat-2/500/420" alt="Placeholder — Marble Radha Krishna Idol">
+        <div class="product-info"><span class="product-name">Marble Radha Krishna Idol — 8"</span><span class="product-price">₹3,499</span><a href="product.html" class="btn btn-maroon btn-block">Add to Cart</a></div>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/seed/cat-3/500/420" alt="Placeholder — Rudraksha Jap Mala">
+        <div class="product-info"><span class="product-name">Rudraksha Jap Mala, 108 Beads</span><span class="product-price">₹499</span><a href="product.html" class="btn btn-maroon btn-block">Add to Cart</a></div>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/seed/cat-4/500/420" alt="Placeholder — Rose Attar">
+        <div class="product-info"><span class="product-name">Rose Attar, 12ml</span><span class="product-price">₹349</span><a href="product.html" class="btn btn-maroon btn-block">Add to Cart</a></div>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/seed/cat-5/500/420" alt="Placeholder — Kanthi Mala Double Strand">
+        <div class="product-info"><span class="product-name">Kanthi Mala, Double Strand</span><span class="product-price">₹249</span><a href="product.html" class="btn btn-maroon btn-block">Add to Cart</a></div>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/seed/cat-6/500/420" alt="Placeholder — Peacock Feather Crown">
+        <div class="product-info"><span class="product-name">Peacock Feather Mukut</span><span class="product-price">₹799</span><a href="product.html" class="btn btn-maroon btn-block">Add to Cart</a></div>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/seed/cat-7/500/420" alt="Placeholder — Brass Radha Krishna Idol">
+        <div class="product-info"><span class="product-name">Brass Radha Krishna Idol — 6"</span><span class="product-price">₹1,899</span><a href="product.html" class="btn btn-maroon btn-block">Add to Cart</a></div>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/seed/cat-8/500/420" alt="Placeholder — Tulsi Mala">
+        <div class="product-info"><span class="product-name">Tulsi Kanthi Mala, Single Strand</span><span class="product-price">₹199</span><a href="product.html" class="btn btn-maroon btn-block">Add to Cart</a></div>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/seed/cat-9/500/420" alt="Placeholder — Mogra Attar">
+        <div class="product-info"><span class="product-name">Mogra Attar, 12ml</span><span class="product-price">₹329</span><a href="product.html" class="btn btn-maroon btn-block">Add to Cart</a></div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="pagination" aria-label="Catalogue pagination">
+    <a href="#">‹</a>
+    <span class="active">1</span>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">…</a>
+    <a href="#">10</a>
+    <a href="#">›</a>
+  </nav>
+</section>
+
+<footer class="site-footer">
+  <a href="index.html" class="logo">NIKUNJ STORES</a>
+  <ul class="footer-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="category.html">Category</a></li>
+    <li><a href="catalogue.html">Catalogue</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="footer-divider"></div>
+  <p class="copyright">© 2026 Nikunj Stores. Made with Bhakti in Bhusawal, Maharashtra.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
